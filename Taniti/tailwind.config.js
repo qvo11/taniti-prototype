@@ -7,7 +7,11 @@ export default {
         darkBlue: '#093b7d',
         lightBlue: '#7C94BC',
         light: '#C8D3E2',
-      }
+      },
+      fontFamily: {
+        heading: ['Playfair Display', 'serif'],
+        body: ['Montserrat', 'sans-serif'],
+      },
     },
   },
   plugins: [],
