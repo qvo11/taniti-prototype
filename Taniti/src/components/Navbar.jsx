@@ -1,19 +1,26 @@
 import React from 'react'
-import logo from '../assets/taniti-logo2.png'
+import logo from '../assets/taniti-logo3.png'
 
 const Navbar = () => {
   return (
-    <header className='bg-darkBlue p-3'>
+    <header id="navbar" className='sticky top-0 z-50 bg-lightOrange p-0 shadow-md'>
       {/* Logo & NavLinks */}
-    <nav className="bg-darkBlue py-2 px-4 flex items-center justify-between">
-      <img src={logo} alt="Taniti Logo" className="h-[100px] w-auto p-0" />
-      <ul className='flex items-center justify-center gap-8'>
-        <li><a href='#' className='text-white font-body hover:text-lightBlue'>Home</a></li>
-        <li><a href='#' className='text-white font-body hover:text-lightBlue'>Attractions</a></li>
-        <li><a href='#' className='text-white font-body hover:text-lightBlue'>Lodging</a></li>
-        <li><a href='#' className='text-white font-body hover:text-lightBlue'>Transportation</a></li>
-        <li><a href='#' className='inline-block font-body text-white rounded-full bg-lightBlue px-5 py-2 transition-transform duration-200 ease-out hover:-translate-y-1 hover:shadow-lg'>Book Now</a></li>
+    <nav className="bg-lightOrange py-2 px-4 flex items-center justify-between">
+      <img src={logo} alt="Taniti Logo" className="h-[50px] w-auto p-0" />
+      <ul className='absolute left-1/2 flex -translate-x-1/2 gap-8 whitespace-nowrap'>
+        <li><a href='#hero' className='text-dustBlue font-[400] font-body hover:font-bold'>Home</a></li>
+        <li><a href='#attractions' className='text-dustBlue font-[400] font-body hover:font-bold'>Attractions</a></li>
+        <li><a href='#' className='text-dustBlue font-[400] font-body hover:font-bold'>Accommodations</a></li>
+        <li><a href='#' className='text-dustBlue font-[400] font-body hover:font-bold'>Dining</a></li>
+        <li><a href='#' className='text-dustBlue font-[400] font-body hover:font-bold'>Transportation</a></li>
+        <li><a href='#' className='text-dustBlue font-[400] font-body hover:font-bold'>Start Planning</a></li>
       </ul>
+        
+        <a 
+        href='#' className='
+        ml-auto inline-flex items-centerfont-body text-white rounded-full bg-dustBlue px-5 py-2 shadow-xl transition-transform duration-200 ease-out hover:-translate-y-1'>
+        Book Now</a>
+
 
     </nav>
     </header>
