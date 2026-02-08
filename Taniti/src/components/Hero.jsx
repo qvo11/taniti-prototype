@@ -21,10 +21,9 @@ const Hero = ({
           </p>
           </div>
 
-          {/* Action Buttons */}
           <div className='flex gap-4 justify-center mt-6'>
           <a className='inline-flex items-centerfont-body text-white rounded-full bg-dustBlue px-5 py-3 mt-8 shadow-xl transition-transform duration-200 ease-out hover:-translate-y-1' href='#'>Design Your Getaway</a>
-          <a className='inline-flex items-centerfont-body font-medium text-darkBlue rounded-full bg-white/80 px-5 py-3 mt-8 shadow-xl transition-transform duration-200 ease-out hover:-translate-y-1' href='#'>Explore</a>
+          <a className='inline-flex items-centerfont-body font-medium text-darkBlue rounded-full bg-white/80 px-5 py-3 mt-8 shadow-xl transition-transform duration-200 ease-out hover:-translate-y-1' href='#attractions'>Explore</a>
         </div>
         </div>
     </section>
