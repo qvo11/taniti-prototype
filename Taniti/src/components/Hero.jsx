@@ -6,7 +6,7 @@ const Hero = ({
     subtitle = "Your Dream Destination Awaits"
 }) => {
   return (
-    <section id='hero' className='relative min-h-[70ch] flex items-center justify-center'>
+    <section id='hero' className='relative min-h-[70ch] flex items-center justify-center p-50'>
         <div 
         className='absolute inset-0 bg-center bg-cover py-10'
         style={{backgroundImage: `url(${heroImage})`}}

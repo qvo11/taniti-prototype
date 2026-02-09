@@ -38,7 +38,7 @@ const Dining = () => {
         title='Culinary Experiences'
         description='From beachfront cafés to upscale restaurants, Taniti’s dining scene blends fresh ingredients, island traditions, and refined culinary craft.'
         />
-    <div className='mt-10 grid grid-cols-2 grid-row-2 gap-6'>
+    <div className='mt-10 grid grid-cols-1 sm:grid-cols-2 sm:grid-row-2 gap-6'>
     {options.map((option) => (
         <DiningCards
         key={option.title}

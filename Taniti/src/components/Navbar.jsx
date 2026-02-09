@@ -12,8 +12,8 @@ const Navbar = () => {
         <li><a href='#attractions' className='text-dustBlue font-[400] font-body hover:font-bold'>Attractions</a></li>
         <li><a href='#accommodations' className='text-dustBlue font-[400] font-body hover:font-bold'>Accommodations</a></li>
         <li><a href='#dining' className='text-dustBlue font-[400] font-body hover:font-bold'>Dining</a></li>
-        <li><a href='#' className='text-dustBlue font-[400] font-body hover:font-bold'>Transportation</a></li>
-        <li><a href='#' className='text-dustBlue font-[400] font-body hover:font-bold'>Start Planning</a></li>
+        <li><a href='#transportation' className='text-dustBlue font-[400] font-body hover:font-bold'>Transportation</a></li>
+        <li><a href='#planning' className='text-dustBlue font-[400] font-body hover:font-bold'>Planning</a></li>
       </ul>
         
         <a 
