@@ -102,6 +102,12 @@ const Transportation = () => {
         ))}
         </div>
         </div>
+
+        <div className='mt-8 text-center'>
+        <a href='#' className='inline-flex items-centerfont-body text-white rounded-full bg-dustBlue px-5 py-3 mt-8 shadow-xl transition-transform duration-200 ease-out hover:-translate-y-1'>
+       Start Your Journey
+        </a>
+        </div>
     </section>
   )
 }
